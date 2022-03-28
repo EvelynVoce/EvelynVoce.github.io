@@ -1,0 +1,12 @@
+p {
+    font-family: verdana, arial;
+    font-size: 16px;
+  }
+
+.pink_row {
+    background-color: #f1cef686;
+}
+
+.blue_row {
+    background-color: #cef3f6;
+}
