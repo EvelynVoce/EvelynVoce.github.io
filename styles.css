@@ -15,3 +15,8 @@ p {
     color: rgb(0, 0, 0);
     text-decoration:none
 }
+
+.social:hover {
+    color: rgb(77, 74, 74);
+    text-decoration:none
+}
