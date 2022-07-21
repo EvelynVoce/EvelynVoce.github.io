@@ -6,5 +6,13 @@
         "link": "https://github.com/EvelynVoce/RestFull-messaging-service-API-",
         "alt": "API client GUI",
         "colour": "blue_card"
+    },
+    {
+        "title": "Multi-threaded AI Chatbot with Azure Functionality (Python):",
+        "description": "The task was simple, create an AI chatbot that utilises natural language processing to recongize what the user is attempting to ask and return the most appropriate answer. This was achieved using the Keras library and additional functionality was added such as the ability to extract the users name from their given input. Then came the image recognition this uses a locally trained an exported CNN along with Azure cognitive and custom vision services and a face recogntion service just to top it off. This entire chatbot was based around the BBC show Doctor Who. The AI could confirm or disprove statements given by the user, statements that could not be disproved were added to the knowledge base so the AI gained knowledge the more it was used. The AI was also capable of recognising the doctors within images and would classify images accordingly.",
+        "thumbnail": "images/AI2.png",
+        "link": "https://github.com/EvelynVoce/AI",
+        "alt": "AI GUI",
+        "colour": "pink_card"
     }
 ]
