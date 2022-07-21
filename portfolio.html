@@ -20,7 +20,7 @@
     
   </head>
 
-  <body>
+  <body onLoad="displayProjects()">
     <header>
 
       <!-- NavBar -->
@@ -101,32 +101,7 @@
 
         </div>
         
-        <!-- Cloud project -->
-        <div class="card rounded my-5 blue_card">
-          <div class="row mx-1 mx-md-5">
-            <h1 class="mt-5 d-flex justify-content-center"><u>Cloud-Based Instant Messaging API (Java):</u></h1>
-            <div class="col-md-6">
-              <p class="mt-4">
-                A project I'm proud to have worked on is my instant messaging API developed using Java and the springboot framework.
-                This API allows users to organise travel opportunities with each other and uses reverse geocoding to take the location
-                the proposing user has specified and return the weather conditions for that location as JSON using a series of external API's.
-                This API was hosted on an Azure virtual machine to allow user's from across the globe to connect to my API. Finally, to show the
-                interoperability of cloud-computing, two clients were made, one in Java using the Swing framework and another in Python using TKinter.
-              </p>
-            </div>
-            <div class="col-md-6 mt-4">
-              <img
-                src="images/Cloud-Project1.png"
-                alt="API client GUI"
-                class="img-fluid"
-                width="1200"
-              />
-            </div>
-            <a class="my-4 d-flex justify-content-center" href="https://github.com/EvelynVoce/RestFull-messaging-service-API-" target="_">
-              <button type="button" class="btn btn-primary"> View Code</button>
-            </a>
-          </div>
-        </div>
+        <div id="container"></div>
 
         <!-- AI project -->
         <div class="card rounded my-5 pink_card">
@@ -241,6 +216,8 @@
       integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
       crossorigin="anonymous"
     ></script>
+
+    <script src="projects.js"></script>
 
   </body>
 </html>
