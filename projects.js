@@ -16,6 +16,7 @@ async function displayProjects(){
             <h1 class="mt-5 d-flex justify-content-center"><u>${res.title}</u></h1>
             <div class="col-md-6">
               <p class="mt-4">${res.description}</p>
+              ${res.list}
             </div>
             <div class="col-md-6 mt-4">
               <img
@@ -33,4 +34,24 @@ async function displayProjects(){
         const container = document.getElementById("container");
         container.appendChild(card);
     });
+    displayDetailsList();
+}
+
+
+function displayDetailsList(){
+    const container = document.getElementById("project-details-container");
+    const list = document.createElement("ul");
+    list.className="mt-2";
+    list.innerHTML =
+    `
+    <li class="my-2"> A number of digital weather stations controlled by microcomputers </li>
+    <li class="my-2"> A connected weather stations (e.g. temperature, barometric pressure, relative humidity, wind force, etc.) at the user’s request through a GUI </li>
+    <li class="my-2"> A central server machine that provides (also via a GUI): </li>
+    <ul>
+    <li class="my-2"> Services for new weather stations to connect automatically on powerup and upload its data; </li>
+    <li class="my-2"> Services for new workstations to connect on log in (regulated by a user database), and, after successful connection, obtain an
+        up-to-date description of the field and a list of connected weather stations, and download their respective data on request. </li>
+    </ul>
+    `
+    container.appendChild(list);
 }
