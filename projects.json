@@ -14,5 +14,13 @@
         "link": "https://github.com/EvelynVoce/AI",
         "alt": "AI GUI",
         "colour": "pink_card"
+    },
+    {
+        "title": "Algorithmic Performance Optimization (C++):",
+        "description": "Reducing run-time and maximising efficiency has always been something I've found fascinating. So much so that a significant part of my dissertation project has been spent discussing performance optimization and asymptotic notation. One of my projects in particular has included creating an optimal solution to the Royal Software Engineer's algorithm (an alteration of the three million men algorithm). This was doing by analysising the best, average and worst case complexities of standard library data structures and their methods to ultimately implement an optimal solution to the algorithm. Following this, the Royal Mathematicians Algorithm was attempted, this posed the same problem, only this time, space complexity was the priority and as such a new solution had to be devised.",
+        "thumbnail": "images/ASE.png",
+        "link": "https://github.com/EvelynVoce/Algorithmic-complexity-analysis-with-optimised-solutions",
+        "alt": "Complexity analysis graph",
+        "colour": "blue_card"
     }
 ]
