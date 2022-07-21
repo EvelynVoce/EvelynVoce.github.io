@@ -20,23 +20,14 @@
     
   </head>
 
-  <body>
+  <body onLoad="displayProjects()">
     <header>
 
       <!-- NavBar -->
-
       <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" role="navigation">
         <div class="container">
           <a class="navbar-brand" href="index.html">EvelynVoce</a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
 
@@ -49,26 +40,14 @@
                 <a class="nav-link" href="https://github.com/EvelynVoce" target="_">Github</a>
               </li>
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle"
-                  href="#"
-                  id="navbarDropdown"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                > Contact details
-                </a>
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Contact details </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                   <li><a class="dropdown-item" href="https://www.linkedin.com/in/evelyn-voce/" target="_">LinkedIn</a></li>
                   <li><a class="dropdown-item" href=mailto:evelynvoce58@gmail.com target="_">Email</a></li>
                 </ul>
               </li>
             </ul>
-            <!-- <form class="d-flex">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
-              <button class="btn btn-outline-success" type="submit"> Search </button>
-            </form> -->
           </div>
-
         </div>
       </nav>
     </header>
@@ -101,122 +80,8 @@
 
         </div>
         
-        <!-- Cloud project -->
-        <div class="card rounded my-5 blue_card">
-          <div class="row mx-1 mx-md-5">
-            <h1 class="mt-5 d-flex justify-content-center"><u>Cloud-Based Instant Messaging API (Java):</u></h1>
-            <div class="col-md-6">
-              <p class="mt-4">
-                A project I'm proud to have worked on is my instant messaging API developed using Java and the springboot framework.
-                This API allows users to organise travel opportunities with each other and uses reverse geocoding to take the location
-                the proposing user has specified and return the weather conditions for that location as JSON using a series of external API's.
-                This API was hosted on an Azure virtual machine to allow user's from across the globe to connect to my API. Finally, to show the
-                interoperability of cloud-computing, two clients were made, one in Java using the Swing framework and another in Python using TKinter.
-              </p>
-            </div>
-            <div class="col-md-6 mt-4">
-              <img
-                src="images/Cloud-Project1.png"
-                alt="API client GUI"
-                class="img-fluid"
-                width="1200"
-              />
-            </div>
-            <a class="my-4 d-flex justify-content-center" href="https://github.com/EvelynVoce/RestFull-messaging-service-API-" target="_">
-              <button type="button" class="btn btn-primary"> View Code</button>
-            </a>
-          </div>
-        </div>
-
-        <!-- AI project -->
-        <div class="card rounded my-5 pink_card">
-          <div class="row mx-1 mx-md-5">
-            <h1 class="mt-5 d-flex justify-content-center"><u>Multi-threaded AI Chatbot with Azure Functionality (Python):</u></h1>
-            <div class="col-md-6">
-              <p class="mt-4">
-                The task was simple, create an AI chatbot that utilises natural language processing to recongize what the user is
-                attempting to ask and return the most appropriate answer. This was achieved using the Keras library and additional functionality was
-                added such as the ability to extract the users name from their given input. Then came the image recognition this uses a
-                locally trained an exported CNN along with Azure cognitive and custom vision services and a face recogntion service just to top it off.
-                This entire chatbot was based around the BBC show Doctor Who. The AI could confirm or disprove statements given by the user,
-                statements that could not be disproved were added to the knowledge base so the AI gained knowledge the more it was used. The AI was also
-                capable of recognising the doctors within images and would classify images accordingly.   
-              </p>
-            </div>
-            <div class="col-md-6 mt-4">
-              <img
-                src="images/AI2.png"
-                alt="AI GUI"
-                class="img-fluid"
-              />
-            </div>
-            <a class="my-4 d-flex justify-content-center" href="https://github.com/EvelynVoce/AI" target="_">
-              <button type="button" class="btn btn-primary"> View Code</button>
-            </a>
-          </div>
-        </div>
-
-        <!-- ASE project -->
-        <div class="card rounded my-5 blue_card">
-          <div class="row mx-1 mx-md-5">
-            <h1 class="mt-5 d-flex justify-content-center"><u>Algorithmic Performance Optimization (C++):</u></h1>
-            <div class="col-md-6">
-              <p class="mt-4">
-                Reducing run-time and maximising efficiency has always been something I've found fascinating. So much so that
-                a significant part of my dissertation project has been spent discussing performance optimization and asymptotic notation.
-                One of my projects in particular has included creating an optimal solution to the Royal Software Engineer's algorithm
-                (an alteration of the three million men algorithm). This was doing by analysising the best, average and worst case complexities
-                of standard library data structures and their methods to ultimately implement an optimal solution to the algorithm. Following this,
-                the Royal Mathematicians Algorithm was attempted, this posed the same problem, only this time, space complexity was the priority and
-                as such a new solution had to be devised.
-              </p>
-            </div>
-            <div class="col-md-6 mt-4">
-              <img
-              src="images/ASE.png"
-              alt="Complexity analysis graph"
-                class="img-fluid"
-              />
-            </div>
-            <a class="my-4 d-flex justify-content-center" href="https://github.com/EvelynVoce/Algorithmic-complexity-analysis-with-optimised-solutions" target="_">
-              <button type="button" class="btn btn-primary"> View Code</button>
-            </a>
-          </div>
-        </div>
+        <div id="container"></div>
       
-        <!-- Systems project -->
-        <div class="card rounded my-5 pink_card">
-          <div class="row mx-1 mx-md-5">
-            <h1 class="mt-5 d-flex justify-content-center"><u>Multi-threaded Client Server (Java):</u></h1>
-            <div class="col-md-6">
-              <p class="mt-4">
-                As part of my Systems Software module at NTU me and my group were tasked with the creation of a concurrent client-server model as
-                a solution for a farmer who wants to keep track of their crops across multiple fields. This utlised a TCP/IP-based network infrastructure
-                composed of the following components, all connected to the network:
-                <ul class="mt-2" style="font-family:Verdana, arial;">
-                  <li class="my-2"> A number of digital weather stations controlled by microcomputers </li>
-                  <li class="my-2"> A connected weather stations (e.g. temperature, barometric pressure, relative humidity, wind force, etc.) at the user’s request through a GUI </li>
-                  <li class="my-2"> A central server machine that provides (also via a GUI): </li>
-                  <ul>
-                    <li class="my-2"> Services for new weather stations to connect automatically on powerup and upload its data; </li>
-                    <li class="my-2"> Services for new workstations to connect on log in (regulated by a user database), and, after successful connection, obtain an
-                      up-to-date description of the field and a list of connected weather stations, and download their respective data on request. </li>
-                  </ul>
-                </ul>
-              </p>
-            </div>
-            <div class="col-md-6 mt-4">
-              <img
-              src="images/SS.png"
-              alt="Complexity analysis graph"
-                class="img-fluid"
-              />
-            </div>
-            <a class="my-4 d-flex justify-content-center" href="https://github.com/EvelynVoce/Concurrent-Client-Server-Model" target="_">
-              <button type="button" class="btn btn-primary"> View Code</button>
-            </a>
-          </div>
-        </div>
       </div>
 
       <!-- Wave -->
@@ -227,20 +92,14 @@
     </main>
 
     <!-- Footer -->
-    <footer class="footer mt-auto py-3 bg-dark">
-    </footer>
+    <footer class="footer mt-auto py-3 bg-dark"></footer>
 
-    <script
-      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
-      integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
-      crossorigin="anonymous"
-    ></script>
-
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
-      integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
-      crossorigin="anonymous"
-    ></script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    <script src="projects.js"></script>
 
   </body>
 </html>
