@@ -1,5 +1,14 @@
 [
     {
+        "title": "Events Calendar (React + C#):",
+        "description": "Currently I’m working within a small team to create a website for the developer’s society at NTU to allow them to display their events and allow members to register attendance. This application uses React for the front-end, C# for the back-end and an SQL database to store users accounts. /nThis is a large-scale project designed to meet industry standards. It uses interfaces to allow for various internal implementations of methods to be switched out easily and each design layer is loosely coupled so layers can be edited freely without effecting code elsewhere.",
+        "thumbnail": "images/Calendar.png",
+        "link": "https://github.com/NTUDevSoc/eventathon",
+        "alt": "DevSoc Calendar Project",
+        "colour": "pink_card",
+        "list": ""
+    },
+    {
         "title": "Cloud-Based Instant Messaging API (Java):",
         "description": "A project I'm proud to have worked on is my instant messaging API developed using Java and the springboot framework. This API allows users to organise travel opportunities with each other and uses reverse geocoding to take the location the proposing user has specified and return the weather conditions for that location as JSON using a series of external API's. This API was hosted on an Azure virtual machine to allow user's from across the globe to connect to my API. Finally, to show the interoperability of cloud-computing, two clients were made, one in Java using the Swing framework and another in Python using TKinter.",
         "thumbnail": "images/Cloud-Project1.png",
