@@ -1,7 +1,7 @@
 [
     {
         "title": "Events Calendar (React + C#):",
-        "description": "Currently I’m working within a small team to create a website for the developer’s society at NTU to allow them to display their events and allow members to register attendance. This application uses React for the front-end, C# for the back-end and an SQL database to store users accounts. /nThis is a large-scale project designed to meet industry standards. It uses interfaces to allow for various internal implementations of methods to be switched out easily and each design layer is loosely coupled so layers can be edited freely without effecting code elsewhere.",
+        "description": "Currently I’m working within a small team to create a website for the developer’s society at NTU to allow them to display their events and allow members to register attendance. This application uses React for the front-end, C# for the back-end and an SQL database to store users accounts. This is a large-scale project designed to meet industry standards. It uses interfaces to allow for various internal implementations of methods to be switched out easily and each design layer is loosely coupled so layers can be edited freely without effecting code elsewhere.",
         "thumbnail": "images/Calendar.png",
         "link": "https://github.com/NTUDevSoc/eventathon",
         "alt": "DevSoc Calendar Project",
@@ -10,7 +10,7 @@
     },
     {
         "title": "Cloud-Based Instant Messaging API (Java):",
-        "description": "A project I'm proud to have worked on is my instant messaging API developed using Java and the springboot framework. This API allows users to organise travel opportunities with each other and uses reverse geocoding to take the location the proposing user has specified and return the weather conditions for that location as JSON using a series of external API's. This API was hosted on an Azure virtual machine to allow user's from across the globe to connect to my API. Finally, to show the interoperability of cloud-computing, two clients were made, one in Java using the Swing framework and another in Python using TKinter.",
+        "description": "A project I'm proud to have worked on is my instant messaging API developed using Java and the Spring Boot framework. This API allows users to organise travel opportunities with each other and uses reverse geocoding to take the location the proposing user has specified and return the weather conditions for that location as JSON using a series of external API's. This API was hosted on an Azure virtual machine to allow user's from across the globe to connect to my API. Finally, to show the interoperability of cloud-computing, two clients were made, one in Java using the Swing framework and another in Python using TKinter.",
         "thumbnail": "images/Cloud-Project1.png",
         "link": "https://github.com/EvelynVoce/RestFull-messaging-service-API-",
         "alt": "API client GUI",
@@ -19,7 +19,7 @@
     },
     {
         "title": "Multi-threaded AI Chatbot with Azure Functionality (Python):",
-        "description": "The task was simple, create an AI chatbot that utilises natural language processing to recongize what the user is attempting to ask and return the most appropriate answer. This was achieved using the Keras library and additional functionality was added such as the ability to extract the users name from their given input. Then came the image recognition this uses a locally trained an exported CNN along with Azure cognitive and custom vision services and a face recogntion service just to top it off. This entire chatbot was based around the BBC show Doctor Who. The AI could confirm or disprove statements given by the user, statements that could not be disproved were added to the knowledge base so the AI gained knowledge the more it was used. The AI was also capable of recognising the doctors within images and would classify images accordingly.",
+        "description": "The task was simple, create an AI chatbot that utilises natural language processing to recognize what the user is attempting to ask and return the most appropriate answer. This was achieved using the Keras library and additional functionality was added such as the ability to extract the users name from their given input. Then came the image recognition this uses a locally trained an exported CNN along with Azure cognitive and custom vision services and a face recognition service just to top it off. This entire chatbot was based around the BBC show Doctor Who. The AI could confirm or disprove statements given by the user; statements that could not be disproved were added to the knowledge base so that the AI could gain knowledge as it was used. The AI was also capable of recognising the doctors within images and would classify images accordingly.",
         "thumbnail": "images/AI2.png",
         "link": "https://github.com/EvelynVoce/AI",
         "alt": "AI GUI",
@@ -28,7 +28,7 @@
     },
     {
         "title": "Algorithmic Performance Optimization (C++):",
-        "description": "Reducing run-time and maximising efficiency has always been something I've found fascinating. So much so that a significant part of my dissertation project has been spent discussing performance optimization and asymptotic notation. One of my projects in particular has included creating an optimal solution to the Royal Software Engineer's algorithm (an alteration of the three million men algorithm). This was doing by analysising the best, average and worst case complexities of standard library data structures and their methods to ultimately implement an optimal solution to the algorithm. Following this, the Royal Mathematicians Algorithm was attempted, this posed the same problem, only this time, space complexity was the priority and as such a new solution had to be devised.",
+        "description": "Reducing run-time and maximising efficiency has always been something I've found fascinating. So much so that a significant part of my dissertation project has been spent discussing performance optimization and asymptotic notation. One of my projects in particular has included creating an optimal solution to the Royal Software Engineer's algorithm (an alteration of the three million men algorithm). This was doing by analysing the best, average and worst-case complexities of standard library data structures and their methods to ultimately implement an optimal solution to the algorithm. Following this, the Royal Mathematicians Algorithm was attempted, this posed the same problem, only this time, space complexity was the priority and as such a new solution had to be devised.",
         "thumbnail": "images/ASE.png",
         "link": "https://github.com/EvelynVoce/Algorithmic-complexity-analysis-with-optimised-solutions",
         "alt": "Complexity analysis graph",
@@ -37,7 +37,7 @@
     },
     {
         "title": "Multi-threaded Client Server (Java):",
-        "description": "As part of my Systems Software module at NTU me and my group were tasked with the creation of a concurrent client-server model as a solution for a farmer who wants to keep track of their crops across multiple fields. This utlised a TCP/IP-based network infrastructure composed of the following components, all connected to the network:",
+        "description": "As part of my Systems Software module at NTU me and my group were tasked with the creation of a concurrent client-server model as a solution for a farmer who wants to keep track of their crops across multiple fields. This utilised a TCP/IP-based network infrastructure composed of the following components, all connected to the network:",
         "thumbnail": "images/SS.png",
         "link": "https://github.com/EvelynVoce/Concurrent-Client-Server-Model",
         "alt": "Complexity analysis graph",
