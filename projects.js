@@ -1,8 +1,7 @@
-function getProjects() {
+async function getProjects() {
     const path = "projects.json"
-    return fetch(path).then(function(response) {
-        return response.json();
-    });
+    const seasonContent = await fetch(path);
+    return seasonContent.json();
 }
 
 async function displayProjects(){
