@@ -47,9 +47,9 @@ function displayDetailsList(){
     <li class="my-2"> A connected weather stations (e.g. temperature, barometric pressure, relative humidity, wind force, etc.) at the user’s request through a GUI </li>
     <li class="my-2"> A central server machine that provides (also via a GUI): </li>
     <ul>
-    <li class="my-2"> Services for new weather stations to connect automatically on powerup and upload its data. </li>
-    <li class="my-2"> Services for new workstations to connect on log in (regulated by a user database), and, after successful connection, obtain an
-        up-to-date description of the field and a list of connected weather stations, and download their respective data on request. </li>
+      <li class="my-2"> Services for new weather stations to connect automatically on powerup and upload its data. </li>
+      <li class="my-2"> Services for new workstations to connect on log in (regulated by a user database), and, after successful connection, obtain an
+      up-to-date description of the field and a list of connected weather stations, and download their respective data on request. </li>
     </ul>
     `
     container.appendChild(list);
