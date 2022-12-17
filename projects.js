@@ -54,3 +54,9 @@ function displayDetailsList(){
     `
     container.appendChild(list);
 }
+
+async function showProjectTitle(item) {
+  if (item) {
+    document.getElementById("ProjectDropdown").innerHTML = item.innerHTML;
+  }
+}
