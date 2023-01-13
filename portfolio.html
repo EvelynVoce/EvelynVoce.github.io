@@ -15,7 +15,7 @@
     
   </head>
 
-  <body onLoad="displayProjects()">
+  <body onLoad="showProjectTitle()">
     <header>
       <!-- NavBar -->
       <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" role="navigation">
@@ -34,7 +34,7 @@
                 <a class="nav-link" href="https://github.com/EvelynVoce" target="_">Github</a>
               </li>
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" type="button" id="ProjectDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <a class="nav-link dropdown-toggle" href="#" type="button" id="ContactDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                   Contact details
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -78,7 +78,7 @@
 
         <div class="dropdown">
           <button class="btn btn-secondary dropdown-toggle" type="button" id="ProjectDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Project Category
+            ML and AI
           </button>
           <div class="dropdown-menu" aria-labelledby="ProjectDropdown">
             <button class="dropdown-item" type="button" onclick="showProjectTitle(this)">ML and AI</button>
@@ -87,7 +87,7 @@
             <button class="dropdown-item" type="button" onclick="showProjectTitle(this)">Server Clients</button>
           </div>
         </div>
-        
+
         <div id="container"></div>
       
       </div>
