@@ -11,7 +11,7 @@
   {
     "title": "Classifying and Analysing a developers salary",
     "description": "A project I am very proud of is the use of machine learning to classify developers income based on multiple variables such as country, sex, ethnicity, job title, age, years of experience and much more. This project utilised multiple algorithms including Neural Networks, Support Vector Machines and Deep Learning. Ultimately I was able to classify a developers income with 88% accuracy.",
-    "thumbnail": "images/AI2.png",
+    "thumbnail": "images/ML.png",
     "link": "https://github.com/EvelynVoce/AI",
     "alt": "AI GUI",
     "colour": "blue_card",
