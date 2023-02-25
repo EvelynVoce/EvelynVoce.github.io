@@ -25,3 +25,8 @@ p {
     color: rgb(77, 74, 74);
     text-decoration:none
 }
+
+.image_test {
+    width:100%; /* you can use % */
+    height: auto;
+}
