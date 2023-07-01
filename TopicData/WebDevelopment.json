@@ -1,11 +1,20 @@
 [
   {
     "title": "Events Calendar (React + C#):",
-    "description": "Currently I’m working within a small team to create a website for the developer’s society at NTU to allow them to display their events and allow members to register attendance. This application uses React for the front-end, C# for the back-end and an SQL database to store users accounts. This is a large-scale project designed to meet industry standards. It uses interfaces to allow for various internal implementations of methods to be switched out easily and each design layer is loosely coupled so layers can be edited freely without effecting code elsewhere.",
+    "description": "I worked within a small team to create a website for the developer’s society at NTU to allow them to display their events and allow members to register attendance. This application uses React for the front-end, C# for the back-end and an SQL database to store users accounts. This is a large-scale project designed to meet industry standards. It uses interfaces to allow for various internal implementations of methods to be switched out easily and each design layer is loosely coupled so layers can be edited freely without effecting code elsewhere.",
     "thumbnail": "images/Calendar.png",
     "link": "https://github.com/NTUDevSoc/eventathon",
     "alt": "DevSoc Calendar Project",
     "colour": "pink_card",
+    "list": ""
+  },
+  {
+    "title": "QueerCoding: (React + C#)",
+    "description": "QueerCoding is a project aimed at fostering inclusivity and diversity within the software development industry. By offering courses in Python programming, web development, and machine learning/data analysis, it strives to empower individuals from the LGBTQ+ community to embark on a rewarding career in tech. Developed using React and C#, QueerCoding allows me to share my passion and believe that software development is for everyone.",
+    "thumbnail": "images/queer-coding.jpg",
+    "link": "https://github.com/EvelynVoce/queer-coding-react",
+    "alt": "QueerCoding",
+    "colour": "blue_card",
     "list": ""
   }
 ]
