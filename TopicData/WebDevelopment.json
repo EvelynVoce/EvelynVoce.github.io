@@ -1,11 +1,20 @@
 [
   {
+    "title": "Clothing Store: (React + C#)",
+    "description": "My most significant project to date—a highly scalable and industry-standard online clothing store built with React, C#, and SQL. This ambitious endeavor showcases my expertise in software development and highlights my ability to create robust and maintainable solutions. Leveraging React's cutting-edge capabilities for seamless user experiences, combined with the efficiency of C# and the reliability of SQL for backend and data management, this project sets a new standard for what I am able to achieve. By successfully delivering a high-performing, secure, and scalable solution, I demonstrate my commitment to developing top-tier software. Contact me to learn how I can bring this level of expertise to your organization's development projects.",
+    "thumbnail": "images/ecomm.png",
+    "link": "https://github.com/EvelynVoce/React-E-Commerce",
+    "alt": "QueerCoding",
+    "colour": "pink_card",
+    "list": ""
+  },
+  {
     "title": "Events Calendar (React + C#):",
     "description": "I worked within a small team to create a website for the developer’s society at NTU to allow them to display their events and allow members to register attendance. This application uses React for the front-end, C# for the back-end and an SQL database to store users accounts. This is a large-scale project designed to meet industry standards. It uses interfaces to allow for various internal implementations of methods to be switched out easily and each design layer is loosely coupled so layers can be edited freely without effecting code elsewhere.",
     "thumbnail": "images/Calendar.png",
     "link": "https://github.com/NTUDevSoc/eventathon",
     "alt": "DevSoc Calendar Project",
-    "colour": "pink_card",
+    "colour": "blue_card",
     "list": ""
   },
   {
@@ -14,7 +23,7 @@
     "thumbnail": "images/queer-coding.jpg",
     "link": "https://github.com/EvelynVoce/queer-coding-react",
     "alt": "QueerCoding",
-    "colour": "blue_card",
+    "colour": "pink_card",
     "list": ""
   }
 ]
